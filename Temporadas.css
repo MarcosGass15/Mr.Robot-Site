@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+background-color: black;
+list-style: none;
+text-decoration: none;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Chivo Mono', monospace;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://images.hdqwalls.com/download/mr-robot-logo-hd-qu-1920x1080.jpg');
+    background-position: 40% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 70%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://pyxis.nymag.com/v1/imgs/20c/4bc/6fab64d37482a1e0e3d26f491175624249-12-mr-robot.rsquare.w700.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://hips.hearstapps.com/digitalspyuk.cdnds.net/16/28/1468273033-nup-173272-1422.JPG')
+}
+
+.banner-3 {
+    background-image: url('https://uploads.jovemnerd.com.br/wp-content/uploads/2018/08/mr-robot-amazon-prime-video.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://sopaalternativa.com.br/wp-content/uploads/2020/07/mr-robot-season-4-capa-2.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://www.digitaltrends.com/wp-content/uploads/2018/03/mr-robot-amazon-gallery.jpg?p=1');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 50%;
+    }
+
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}

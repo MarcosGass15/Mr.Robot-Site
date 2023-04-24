@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+background-color: black;
+list-style: none;
+text-decoration: none;
+}
+
+header {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 70%;
+}
+
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Chivo Mono', monospace;
+}
+
+li:hover {
+    color: red;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#banner {
+    background-image: url('https://images.hdqwalls.com/download/mr-robot-logo-hd-qu-1920x1080.jpg');
+    background-position: 40% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://br.web.img2.acsta.net/pictures/16/06/22/10/05/550241.jpg');
+}
+
+.banner-2 {
+    background-image: url('https://br.web.img2.acsta.net/r_1280_720/pictures/16/06/22/10/05/548835.jpg');
+}
+
+.banner-3 {
+    background-image: url('https://br.web.img2.acsta.net/pictures/16/06/22/10/05/551960.jpg');
+}
+
+.banner-4 {
+    background-image: url('https://64.media.tumblr.com/2b3f1e52c11510f3c5b5c67dd2f8baa1/310e4da87ca1d732-dc/s1280x1920/6e7dcb9f9e96789c33db1db510896834fd55be08.jpg');
+}
+
+.banner-5 {
+    background-image: url('https://br.web.img3.acsta.net/r_1280_720/pictures/16/07/05/12/29/162078.jpg');
+}
+
+.banner-6 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/8/81/S2_poster_-_Joanne_Wellick.jpg/revision/latest?cb=20190908234500');
+}
+
+.banner-7 {
+    background-image: url('https://i.insider.com/5783ead288e4a71a008b72c5?width=750&format=jpeg&auto=webp');
+}
+
+.banner-8 {
+    background-image: url('https://static.tvtropes.org/pmwiki/pub/images/price_phillip.jpg');
+}
+
+.banner-9 {
+    background-image: url('https://tv-fanatic-res.cloudinary.com/iu/s--Tyh2_3DC--/f_auto,q_auto/v1590704567/whiterose-mr-robot');
+}
+
+.banner-10 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/b/b6/Krista.png/revision/latest?cb=20150603024920');
+}
+
+.banner-11 {
+    background-image: url('https://www.hollywoodreporter.com/wp-content/uploads/2019/11/nup_186355_0390-embed_2019.jpg?w=928');
+}
+
+.banner-12 {
+    background-image: url('https://i.redd.it/frhl075u3rn71.jpg');
+}
+
+.banner-13 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/8/87/Gideon_001.jpg/revision/latest?cb=20150607154334');
+}
+
+.banner-14 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/6/63/2deab6f8-full_%282%29.webp/revision/latest?cb=20210413035358');
+}
+
+.banner-15 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/7/72/Mobley_perfil.jpg/revision/latest?cb=20171213182701&path-prefix=es');
+}
+
+.banner-16 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/1/1e/Trenton.png/revision/latest?cb=20150810142611');
+}
+
+.banner-17 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/2/2b/Romero.jpg/revision/latest?cb=20150807160301');
+}
+
+.banner-18 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/d/d0/Ray.jpg/revision/latest?cb=20160805191701');
+}
+
+.banner-19 {
+    background-image: url('https://static.wikia.nocookie.net/mr-robot/images/a/ab/Shayla.png/revision/latest?cb=20160620210137&path-prefix=es');
+}
+
+.banner-20 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/d/d2/Scott.png/revision/latest?cb=20150829181743');
+}
+
+.banner-21 {
+    background-image: url('https://static.wikia.nocookie.net/mrrobot/images/5/54/Terry_Colby.png/revision/latest?cb=20150602173801');
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}
